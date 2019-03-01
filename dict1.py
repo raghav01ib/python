@@ -36,23 +36,12 @@ while True:
 		print("Oops!!..you loose")
 		cs=cs+1
 		print("score: ",cs)
-
-
-	elif u=="r" and c=="s":
-		print("Congratulations,you win!!..")
+		
+	else:
+		print("congratulations!..you won!")
 		us=us+1
-		print("score: ",us)
-
-	
-	elif u=="p" and c=="s":
-		print("Congratulations,you win!!..")
-		us=us+1
-		print("score: ",us)
+		print("score is: ",us)
 
 
-	elif u=="s" and c=="p":
-		print("Congratulations,you win!!..")
-		us=us+1
-		print("score: ",us)
 
 
