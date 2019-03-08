@@ -9,10 +9,10 @@ def func2(a,b,c):
 		print("max",c)
 	elif a>b and b>=c:
 		print("max",a)
-	elif a<b and b>c:
+	elif a<b and a==c:
 		print("max",b)
 	else:
-		print("all are equal")				
+		print("more than one values are equal")				
 
 func2(1,2,3)
 
