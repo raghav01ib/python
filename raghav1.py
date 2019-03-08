@@ -1,4 +1,3 @@
-q=[12,3,4,22,654,7,1,0]
 def func1(a,b,c):
 	d=a+b+c
 	print(d)
